@@ -1,0 +1,7 @@
+github_retriever.default_form:
+  title: 'DefaultForm'
+  route_name: github_retriever.default_form
+  description: 'A description for the menu entry'
+  parent: system.admin_config_system
+  weight: 99
+

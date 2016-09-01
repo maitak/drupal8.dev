@@ -1,0 +1,5 @@
+name: GitHub Retriever
+type: module
+description: DDrupal 8 module for retrieving and rendering data from the GitHub APII
+core: 8.x
+package: Custom

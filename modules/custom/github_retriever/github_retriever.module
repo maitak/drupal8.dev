@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains github_retriever.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function github_retriever_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the github_retriever module.
+    case 'help.page.github_retriever':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('DDrupal 8 module for retrieving and rendering data from the GitHub APII') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,11 @@
+
+github_retriever.default_form:
+  path: '/admin/config/github_retriever/default'
+  defaults:
+    _form: '\Drupal\github_retriever\Form\DefaultForm'
+    _title: 'DefaultForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

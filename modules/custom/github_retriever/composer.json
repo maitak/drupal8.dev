@@ -1,0 +1,14 @@
+{
+  "name": "drupal/github_retriever",
+  "type": "drupal-module",
+  "description": "DDrupal 8 module for retrieving and rendering data from the GitHub APII",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/github_retriever",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/github_retriever",
+    "source": "http://cgit.drupalcode.org/github_retriever"
+  },
+  "require": { }
+}
